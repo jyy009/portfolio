@@ -1,5 +1,5 @@
 import "./App.css";
-import { Portfolio } from "./components/Portfolio";
+import { Portfolio } from "./sections/Portfolio";
 
 export const App = () => {
   return (
@@ -8,4 +8,3 @@ export const App = () => {
     </>
   );
 };
-

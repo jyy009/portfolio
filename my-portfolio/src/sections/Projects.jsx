@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { ProjectHeader } from "./ProjectHeader";
+import { ProjectHeader } from "../components/Headline";
 import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
@@ -32,9 +32,11 @@ export const Projects = () => {
     <div className="project-container">
       <ProjectHeader text={"Featured Projects"} />
 
-      {error ? <p>Error: {error.message} </p> : <ProjectCard 
-        repositories={projectData}
-      />}
+      {error ? (
+        <p>Error: {error.message} </p>
+      ) : (
+        <ProjectCard repositories={projectData} />
+      )}
     </div>
   );
 };
