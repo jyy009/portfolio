@@ -1,4 +1,6 @@
 import { Tag } from "../components/Tag";
+import { Button } from "../components/Button";
+
 
 export const ProjectCard = ({ repositories }) => {
   const filteredRepo = repositories
@@ -22,9 +24,16 @@ export const ProjectCard = ({ repositories }) => {
 
           {repo.topics.map((topic) => (
             <div key={topic}>
-            <Tag tag={topic} />
+              <Tag tag={topic} />
             </div>
           ))}
+
+          <Button
+            iconUrl={"/Icons/globe.svg"}
+            iconAlt={"globe"}
+            text={"Live demo"}
+          />
+          <Button />
         </div>
       ))}
     </div>

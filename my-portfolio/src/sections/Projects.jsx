@@ -8,8 +8,8 @@ export const Projects = () => {
 
   const url = "https://api.github.com/users/jyy009/repos";
 
-  const fetchProjects = () => {
-    fetch(url)
+  const fetchProjects = async () => {
+    await fetch(url)
       .then((res) => {
         if (!res.ok) {
           throw new Error("Error fetching projects");

@@ -8,7 +8,7 @@ export const Profile = () => {
       <Image
         divClassName={"profile-image-container"}
         elementClassName={"headshot-image"}
-        link={"./assets/headshot.png"}
+        link={"/Icons/headshot.png"}
         imgAltText={"headshot"}
       />
       <Paragraph elementClassName={"name"} text={"Hi, I'm Ji Yoo "} />
