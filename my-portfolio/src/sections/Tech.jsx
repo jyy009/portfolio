@@ -1,5 +1,5 @@
-import { Paragraph } from "./components/Paragraph";
-import { Headline } from "./components/Headline";
+import { Paragraph } from "../components/Paragraph";
+import { Headline } from "../components/Headline";
 
 export const Tech = () => {
   return (

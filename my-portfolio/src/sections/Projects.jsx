@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { ProjectHeader } from "../components/Headline";
+import { Headline } from "../components/Headline";
 import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
@@ -30,7 +30,7 @@ export const Projects = () => {
 
   return (
     <div className="project-container">
-      <ProjectHeader text={"Featured Projects"} />
+      <Headline text={"Featured Projects"} />
 
       {error ? (
         <p>Error: {error.message} </p>

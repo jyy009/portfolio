@@ -1,3 +1,5 @@
+import { Tag } from "../components/Tag";
+
 export const ProjectCard = ({ repositories }) => {
   const filteredRepo = repositories
     .filter((repo) => repo.name.includes("project"))
@@ -14,9 +16,15 @@ export const ProjectCard = ({ repositories }) => {
   return (
     <div>
       {filteredRepo.map((repo) => (
-        <div className="proj-card-container" key={repo.id}>
+        <div className="proj-info" key={repo.id}>
           <p>{repo.name}</p>
-          <p>Description of repo goes here</p>
+          <p>{repo.description}</p>
+
+          {repo.topics.map((topic) => (
+            <div key={topic}>
+            <Tag tag={topic} />
+            </div>
+          ))}
         </div>
       ))}
     </div>

@@ -7,6 +7,7 @@ export const Portfolio = () => {
     <div className="portfolio-wrapper">
       <Profile />
       <Tech />
+      <Projects />
     </div>
   );
 };

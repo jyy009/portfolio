@@ -1,6 +1,6 @@
-import { Image } from "./components/Image";
-import { Paragraph } from "./components/Paragraph";
-import { Headline } from "./components/Headline";
+import { Image } from "../components/Image";
+import { Paragraph } from "../components/Paragraph";
+import { Headline } from "../components/Headline";
 
 export const Profile = () => {
   return (
