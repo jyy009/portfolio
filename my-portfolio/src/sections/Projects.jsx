@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Headline } from "../components/Headline";
-import { ProjectCard } from "./ProjectCard";
+import { ProjectsCard } from "./ProjectsCard";
 
 export const Projects = () => {
   const [projectData, setProjectData] = useState([]);
@@ -35,7 +35,7 @@ export const Projects = () => {
       {error ? (
         <p>Error: {error.message} </p>
       ) : (
-        <ProjectCard repositories={projectData} />
+        <ProjectsCard repositories={projectData} />
       )}
     </div>
   );
