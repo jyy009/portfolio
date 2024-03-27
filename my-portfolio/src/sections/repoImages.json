@@ -1,0 +1,38 @@
+[
+  {
+    "repoName": "project-portfolio",
+    "imageUrl": ""
+  },
+  {
+    "repoName": "project-music-releases-vite",
+    "imageUrl": "/Icons/musicreleases.jpg"
+  },
+  {
+    "repoName": "project-happy-thoughts-vite",
+    "imageUrl": "/Icons/happythoughts.jpg"
+  },
+  {
+    "repoName": "project-survey-vite",
+    "imageUrl": "/Icons/survey.jpg"
+  },
+  {
+    "repoName": "project-library",
+    "imageUrl": "/Icons/recipes.jpg"
+  },
+  {
+    "repoName": "project-weather-app",
+    "imageUrl": "/Icons/weatherapp.jpg"
+  },
+  {
+    "repoName": "project-chatbot",
+    "imageUrl": "/Icons/plantbot.jpg"
+  },
+  {
+    "repoName": "project-business-site",
+    "imageUrl": "/Icons/businesssite.jpg"
+  },
+  {
+    "repoName": "project-pizza",
+    "imageUrl": "/Icons/projectpizza.jpg"
+  }
+]
