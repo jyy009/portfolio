@@ -1,6 +1,6 @@
-import { Tag } from "../components/Tag";
-import { Button } from "../components/Button";
-import { Image } from "../components/Image";
+import { Tag } from "../../components/Tag";
+import { Button } from "../../components/Button";
+import { Image } from "../../components/Image";
 import repoImages from "./repoImages.json";
 
 export const ProjectsCard = ({ repositories }) => {
@@ -24,8 +24,7 @@ export const ProjectsCard = ({ repositories }) => {
         return (
           <div className="proj-info" key={repo.id}>
             <Image
-              divClassName={"proj-image-section"}
-              elementClassName={"proj-image"}
+              section={"project"}
               link={repoImage?.imageUrl}
               imageAltText={repo.name}
             />
@@ -38,11 +37,13 @@ export const ProjectsCard = ({ repositories }) => {
               </div>
             ))}
             <Button
+              section={"button-project"}
               iconUrl={"/Icons/globe.svg"}
               iconAlt={"globe"}
               text={"Live demo"}
             />
             <Button
+              section={"button-project"}
               iconUrl={"/Icons/github.svg"}
               iconAlt={"octocat"}
               text={"Live demo"}

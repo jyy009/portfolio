@@ -7,8 +7,7 @@ export const Contact = () => {
     <>
       <Headline text={"Let's talk"} elementClassName={"contact-header"} />
       <Image
-        divClassName={"contact-image-container"}
-        elementClassName={"contact-headshot-image"}
+        section={"contact"}
         link={"/Icons/headshot.png"}
         imgAltText={"headshot"}
       />

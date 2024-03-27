@@ -6,8 +6,7 @@ export const Profile = () => {
   return (
     <div className="profile-container">
       <Image
-        divClassName={"profile-image-container"}
-        elementClassName={"headshot-image"}
+        section={"profile"}
         link={"/Icons/headshot.png"}
         imgAltText={"headshot"}
       />

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Headline } from "../components/Headline";
+import { Headline } from "../../components/Headline";
 import { ProjectsCard } from "./ProjectsCard";
 
 export const Projects = () => {

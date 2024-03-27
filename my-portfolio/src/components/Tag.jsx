@@ -1,7 +1,7 @@
 export const Tag = ({ key, tag }) => {
-  return(
+  return (
     <div>
-    <span key={key}>{tag}</span>
+      <span key={key}>{tag}</span>
     </div>
-  )
-}
+  );
+};
