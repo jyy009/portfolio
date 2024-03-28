@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Headline } from "../../components/Headline";
+import { Title } from "../../components/Title";
 import { ProjectsCard } from "./ProjectsCard";
 
 export const Projects = () => {
@@ -30,7 +30,7 @@ export const Projects = () => {
 
   return (
     <div className="project-container">
-      <Headline 
+      <Title 
       text={"Featured Projects"}
       elementClassName={"project-header"}
       />

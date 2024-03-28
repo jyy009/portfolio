@@ -2,6 +2,8 @@ import { Tag } from "../../components/Tag";
 import { Button } from "../../components/Button";
 import { Image } from "../../components/Image";
 import repoImages from "./repoImages.json";
+import { Headline } from "../../components/Headline";
+import { Text } from "../../components/Text";
 
 export const ProjectsCard = ({ repositories }) => {
   const filteredRepo = repositories
@@ -28,9 +30,14 @@ export const ProjectsCard = ({ repositories }) => {
               link={repoImage?.imageUrl}
               imageAltText={repo.name}
             />
-            <p>{repo.name.replace("project", "").replace(/-/g, " ")}</p>
-            <p>{repo.description}</p>
-
+            <Headline
+              elementClassName={"proj-card-name"}
+              text={repo.name.replace("project", "").replace(/-/g, " ")}
+            />
+            <Text
+              elementClassName={"proj-card-description"}
+              text={repo.description}
+            />
             {repo.topics.map((topic) => (
               <div key={topic}>
                 <Tag tag={topic} />

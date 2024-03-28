@@ -1,5 +1,5 @@
 import { Headline } from "../components/Headline";
-import { Paragraph } from "../components/Paragraph";
+import { Text } from "../components/Text";
 import { Image } from "../components/Image";
 
 export const Contact = () => {
@@ -11,9 +11,9 @@ export const Contact = () => {
         link={"/Icons/headshot.png"}
         imgAltText={"headshot"}
       />
-      <Paragraph text={"Ji Yoo"} elementClassName={"name"} />
-      <Paragraph text={"+46 73 655 7156"} elementClassName={"phonenumber"} />
-      <Paragraph text={"yoo.ji.yg@gmail.com"} elementClassName={"email"} />
+      <Text text={"Ji Yoo"} elementClassName={"name"} />
+      <Text text={"+46 73 655 7156"} elementClassName={"phonenumber"} />
+      <Text text={"yoo.ji.yg@gmail.com"} elementClassName={"email"} />
     </>
   );
 };

@@ -1,5 +1,5 @@
 import "./Headline.css"
 
 export const Headline = ({ text, elementClassName }) => {
-  return <h1 className={elementClassName}>{text}</h1>;
+  return <h2 className={elementClassName}>{text}</h2>;
 };
