@@ -1,0 +1,12 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+padding: 64px 16px;
+}
+
+.profile-img {
+  height: 164px;
+  width: 164px;
+  object-fit: cover;
+}

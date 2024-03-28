@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --header-font: "Montserrat", sans-serif;
+  --text-font: "Hind", sans-serif;
+  --green: #B7C997;
+  --yellow: #A997c9;
+  /* font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+#root {
+  margin: 0;
+}

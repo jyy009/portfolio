@@ -17,18 +17,18 @@ export const ProjectsCard = ({ repositories }) => {
   console.log(filteredRepo);
 
   return (
-    <div>
+    <div className="project-card-container">
       {filteredRepo.map((repo) => {
         const repoImage = repoImages.find((img) => img.repoName === repo.name);
 
         return (
-          <div className="proj-info" key={repo.id}>
+          <div className="project-card-info" key={repo.id}>
             <Image
               section={"project"}
               link={repoImage?.imageUrl}
               imageAltText={repo.name}
             />
-            <p>{repo.name}</p>
+            <p>{repo.name.replace("project", "").replace(/-/g, " ")}</p>
             <p>{repo.description}</p>
 
             {repo.topics.map((topic) => (

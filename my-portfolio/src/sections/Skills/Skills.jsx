@@ -3,7 +3,7 @@ import SkillsList from "./SkillsList.json";
 
 export const Skills = () => {
   return (
-    <>
+    <div className="skills-section">
       <Headline text={"Skills"} elementClassName={"skills-header"} />
 
       {SkillsList.map((skill, index) => (
@@ -14,6 +14,6 @@ export const Skills = () => {
           ))}
         </div>
       ))}
-    </>
+    </div>
   );
 };

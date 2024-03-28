@@ -30,7 +30,10 @@ export const Projects = () => {
 
   return (
     <div className="project-container">
-      <Headline text={"Featured Projects"} />
+      <Headline 
+      text={"Featured Projects"}
+      elementClassName={"project-header"}
+      />
 
       {error ? (
         <p>Error: {error.message} </p>
