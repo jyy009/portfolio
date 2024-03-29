@@ -1,0 +1,13 @@
+
+.button-project {
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+  border: none;
+  
+}
+
+.button-project ~ img {
+  height: 100px;
+  width: 100px;
+}

@@ -1,0 +1,9 @@
+.proj-tags {
+  border: solid black;
+  color: white;
+  background-color: black;
+}
+
+.proj-tags:not(:first-child) {
+  
+}

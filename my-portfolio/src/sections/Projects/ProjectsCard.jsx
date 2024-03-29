@@ -24,7 +24,7 @@ export const ProjectsCard = ({ repositories }) => {
         const repoImage = repoImages.find((img) => img.repoName === repo.name);
 
         return (
-          <div className="project-card-info" key={repo.id}>
+          <div className="project-card-wrapper" key={repo.id}>
             <Image
               section={"image-project"}
               link={repoImage?.imageUrl}
@@ -38,21 +38,25 @@ export const ProjectsCard = ({ repositories }) => {
               elementClassName={"proj-card-description"}
               text={repo.description}
             />
-            {repo.topics.map((topic) => (
-              <Tag elementClassName={"proj-tags"} key={topic} tag={topic} />
-            ))}
-            <Button
-              section={"button-project"}
-              iconUrl={"/Icons/globe.svg"}
-              iconAlt={"globe"}
-              text={"Live demo"}
-            />
-            <Button
-              section={"button-project"}
-              iconUrl={"/Icons/github.svg"}
-              iconAlt={"octocat"}
-              text={"Live demo"}
-            />
+            <div className="tags-container">
+              {repo.topics.map((topic) => (
+                <Tag elementClassName={"proj-tags"} key={topic} tag={topic} />
+              ))}
+            </div>
+            <div className="proj-button-wrapper">
+              <Button
+                section={"button-project"}
+                iconUrl={"/Icons/globe.svg"}
+                iconAlt={"globe"}
+                text={"Live demo"}
+              />
+              <Button
+                section={"button-project"}
+                iconUrl={"/Icons/github.svg"}
+                iconAlt={"octocat"}
+                text={"Live demo"}
+              />
+            </div>
           </div>
         );
       })}
