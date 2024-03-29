@@ -1,0 +1,15 @@
+.tech-container {
+  display: flex;
+  flex-direction: column;
+  padding: 128px 16px;
+}
+
+.tech-title {
+  padding-bottom: 64px;
+  text-align: center;
+}
+
+.tech-info {
+  font-size: 24px;
+  font-weight: 600;
+}

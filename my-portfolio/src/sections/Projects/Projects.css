@@ -1,0 +1,25 @@
+.project-container {
+  display: flex;
+  flex-direction: column;
+  padding: 128px 16px;
+
+}
+
+.featured-project-title {
+  text-align: center;
+  padding-bottom: 64px;
+}
+
+.project-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.proj-card-description {
+  padding: 16px 0;
+}
+
+.button-project {
+  display: block;
+}

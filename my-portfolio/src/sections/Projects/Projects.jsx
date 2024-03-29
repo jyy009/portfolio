@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Title } from "../../components/Title";
 import { ProjectsCard } from "./ProjectsCard";
+import "./Projects.css"
 
 export const Projects = () => {
   const [projectData, setProjectData] = useState([]);
@@ -32,7 +33,7 @@ export const Projects = () => {
     <div className="project-container">
       <Title 
       text={"Featured Projects"}
-      elementClassName={"project-header"}
+      elementClassName={"featured-project-title"}
       />
 
       {error ? (

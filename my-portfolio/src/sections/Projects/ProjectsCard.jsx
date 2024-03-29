@@ -26,7 +26,7 @@ export const ProjectsCard = ({ repositories }) => {
         return (
           <div className="project-card-info" key={repo.id}>
             <Image
-              section={"project"}
+              section={"image-project"}
               link={repoImage?.imageUrl}
               imageAltText={repo.name}
             />
@@ -39,9 +39,7 @@ export const ProjectsCard = ({ repositories }) => {
               text={repo.description}
             />
             {repo.topics.map((topic) => (
-              <div key={topic}>
-                <Tag tag={topic} />
-              </div>
+              <Tag elementClassName={"proj-tags"} key={topic} tag={topic} />
             ))}
             <Button
               section={"button-project"}

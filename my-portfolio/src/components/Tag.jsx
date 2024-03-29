@@ -1,7 +1,5 @@
-export const Tag = ({ key, tag }) => {
-  return (
-    <div>
-      <span key={key}>{tag}</span>
-    </div>
-  );
+import "./Tag.css"
+
+export const Tag = ({ elementClassName, key, tag }) => {
+  return <span className={elementClassName} key={key}>{tag}</span>;
 };

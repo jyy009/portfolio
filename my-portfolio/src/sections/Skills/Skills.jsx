@@ -1,16 +1,24 @@
+import { Title } from "../../components/Title";
 import { Headline } from "../../components/Headline";
+import { Text } from "../../components/Text";
+
 import SkillsList from "./SkillsList.json";
 
 export const Skills = () => {
   return (
     <div className="skills-section">
-      <Headline text={"Skills"} elementClassName={"skills-header"} />
+      <Title text={"Skills"} elementClassName={"skills-header"} />
 
       {SkillsList.map((skill, index) => (
         <div key={index}>
-          <h2>{skill.skillName}</h2>
-          {skill.skillSet.map((item) => (
-            <p>{item}</p>
+          <Headline 
+          elementClassName={"skills-topic"}
+          text={skill.skillName} />
+          {skill.skillSet.map((item, index) => (
+            <Text 
+            key={index}
+            elementClassName={"skills-list"}
+            text={item} />
           ))}
         </div>
       ))}

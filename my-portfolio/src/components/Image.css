@@ -4,3 +4,10 @@
   align-self: center;
   margin-bottom: 32px;
 }
+
+.image-project {
+  height: 200px;
+  width: 100vw;
+  object-fit: cover;
+  padding-bottom: 24px;
+}

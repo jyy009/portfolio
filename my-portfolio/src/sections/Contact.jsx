@@ -1,14 +1,14 @@
-import { Headline } from "../components/Headline";
+import { Title } from "../components/Title";
 import { Text } from "../components/Text";
 import { Image } from "../components/Image";
 
 export const Contact = () => {
   return (
     <>
-      <Headline text={"Let's talk"} elementClassName={"contact-header"} />
+      <Title text={"Let's talk"} elementClassName={"contact-header"} />
       <Image
         section={"contact"}
-        link={"/Icons/headshot.png"}
+        link={"/Icons/headshot.svg"}
         imgAltText={"headshot"}
       />
       <Text text={"Ji Yoo"} elementClassName={"name"} />
