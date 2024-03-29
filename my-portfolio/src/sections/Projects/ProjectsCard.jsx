@@ -54,7 +54,7 @@ export const ProjectsCard = ({ repositories }) => {
                 section={"button-project"}
                 iconUrl={"/Icons/github.svg"}
                 iconAlt={"octocat"}
-                text={"Live demo"}
+                text={"View code"}
               />
             </div>
           </div>

@@ -1,13 +1,10 @@
-
 .button-project {
   display: flex;
+  gap: 7px;
   align-items: center;
   border-radius: 40px;
   border: none;
-  
+  padding-right: 16px;
+  background-color: var(--btn-bg);
 }
 
-.button-project ~ img {
-  height: 100px;
-  width: 100px;
-}
