@@ -1,6 +1,7 @@
 import { Title } from "../components/Title";
 import { Text } from "../components/Text";
 import { Image } from "../components/Image";
+import { Socials } from "../components/Socials";
 import "./Contact.css";
 
 export const Contact = () => {
@@ -17,16 +18,26 @@ export const Contact = () => {
         <Text text={"+46 73 655 7156"} elementClassName={"phonenumber"} />
         <Text text={"yoo.ji.yg@gmail.com"} elementClassName={"email"} />
       </div>
-      <Image 
-      section={"contact-image"}
-      link={"/Icons/linkedin.svg"}
-      imgAltText={"linked in logo"}
-      />
-      <Image 
-      section={"contact-image"}
-      link={"/Icons/gitcontact.svg"}
-      imgAltText={"octocat"}
-      />
+      <div className="socials-wrapper">
+        <Socials
+          section={"social-link"}
+          socialUrl={"https://www.linkedin.com/in/jyy/"}
+          imgUrl={"/Icons/linkedin.svg"}
+          imgAltText={"linkedin logo"}
+        />
+        <Socials
+          section={"social-link"}
+          socialUrl={"https://github.com/jyy009"}
+          imgUrl={"/Icons/gitcontact.svg"}
+          imgAltText={"linkedin logo"}
+        />
+      </div>
+      {/* <div className="ticker-container">
+        <Text 
+        text={"Ji Yoo · Frontend Developer"} 
+        elementClassName={"ticker"}
+        />
+      </div> */}
     </div>
   );
 };

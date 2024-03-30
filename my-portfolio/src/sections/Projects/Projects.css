@@ -47,4 +47,14 @@
   align-items: flex-start; 
 }
 
+.socials-wrapper {
+  display: flex;
+  gap: 32px;
+  cursor: pointer;
+}
+
+.social-link:hover {
+    filter: brightness(0);
+  transition: 0.5s;
+}
 

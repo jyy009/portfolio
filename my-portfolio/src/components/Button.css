@@ -15,12 +15,13 @@
 .button-project:hover {
   background-color: var(--green);
   color: white;
-}
-
-.link-project {
-  text-decoration: none;
+  transition: 0.5s;
 }
 
 .button-project:hover img {
   filter: brightness(100);
+}
+
+.link-project {
+  text-decoration: none;
 }

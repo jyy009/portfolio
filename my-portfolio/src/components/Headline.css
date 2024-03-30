@@ -2,8 +2,10 @@
 .my-name {
   font-family: var(--header-font);
   font-weight: 600;
+
 }
 
 .my-job {
-  margin-bottom: 32px;
+  font-size: 32px;
+  color: var(--green);
 }
