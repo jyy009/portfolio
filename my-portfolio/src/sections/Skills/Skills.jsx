@@ -10,9 +10,8 @@ export const Skills = () => {
       <Title text={"Skills"} elementClassName={"skills-title"} />
 
       {SkillsList.map((skill, index) => (
-        <div className="skills-wrapper">
+        <div key={index} className="skills-wrapper">
           <Headline
-            key={index}
             elementClassName={"skills-topic"}
             text={skill.skillName}
           />

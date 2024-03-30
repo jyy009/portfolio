@@ -8,36 +8,43 @@
 .project-card-container {
   display: flex;
   flex-direction: column;
+  row-gap: 64px;
+
 }
 
 .featured-project-title {
-  /* text-align: center; */
+  text-align: center;
+  color: var(--green);
 }
 
-.project-card-wrapper {
-  border: solid orange;
-
-  /* display: flex;
+.card-wrapper {
+  border: solid blue;
+  display: flex;
   flex-direction: column;
-  margin-top: 64px; */
+}
+
+.image-project {
+  margin-bottom: 24px;
 }
 
 .proj-card-description {
-  /* margin: 16px 0; */
+  margin: 16px 0;
 }
 
-.tags-row {
-  /* display: flex;
+.proj-tags-row {
+  display: flex; */
   flex-wrap: wrap;
   gap: 5px;
-  margin: 16px 0 24px 0; */
+  margin: 0 0 24px 0;
   border: solid green;
 }
 
 .proj-button-row {
   border: solid black;
-  /* display: flex;
+   display: flex;
   flex-direction: column;
   gap: 16px;
-  align-items: flex-start;  */
+  align-items: flex-start; 
 }
+
+

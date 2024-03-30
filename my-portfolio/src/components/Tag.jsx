@@ -1,8 +1,8 @@
 import "./Tag.css";
 
-export const Tag = ({ elementClassName, key, tag }) => {
+export const Tag = ({ elementClassName, index, tag }) => {
   return (
-      <span className={elementClassName} key={key}>
+      <span className={elementClassName} key={index}>
         {tag}</span>
   )
 };

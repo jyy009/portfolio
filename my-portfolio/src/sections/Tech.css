@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   padding: 128px 16px;
+  background-color: var(--green);
+  color: white;
 }
 
 .tech-title {

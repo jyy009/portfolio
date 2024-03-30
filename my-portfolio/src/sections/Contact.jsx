@@ -17,6 +17,16 @@ export const Contact = () => {
         <Text text={"+46 73 655 7156"} elementClassName={"phonenumber"} />
         <Text text={"yoo.ji.yg@gmail.com"} elementClassName={"email"} />
       </div>
+      <Image 
+      section={"contact-image"}
+      link={"/Icons/linkedin.svg"}
+      imgAltText={"linked in logo"}
+      />
+      <Image 
+      section={"contact-image"}
+      link={"/Icons/gitcontact.svg"}
+      imgAltText={"octocat"}
+      />
     </div>
   );
 };

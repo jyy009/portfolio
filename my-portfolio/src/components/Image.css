@@ -7,9 +7,7 @@
 
 .image-project {
   height: 200px;
-  /* width: 100vw; */
-  object-fit: contain;
-  margin-bottom: 24px;
+  object-fit: cover;
   border: solid rgb(239, 108, 130);
 }
 

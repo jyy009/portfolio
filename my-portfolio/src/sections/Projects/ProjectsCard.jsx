@@ -18,43 +18,55 @@ export const ProjectsCard = ({ repositories }) => {
 
   console.log(filteredRepo);
 
+  const uppercaseTags = ["html5", "css3", "css", "api"]
+
+  const toUppercaseTags = (word) => {
+    if (uppercaseTags.includes(word)) {
+      return word.toUpperCase();
+    } 
+    return word.charAt(0).toUpperCase() + word.slice(1)
+  }
   return (
     <div className="project-card-container">
       {filteredRepo.map((repo) => {
         const repoImage = repoImages.find((img) => img.repoName === repo.name);
 
         return (
-          <div className="project-card-wrapper" key={repo.id}>
-            <div>
-              <Image
-                section={"image-project"}
-                link={repoImage?.imageUrl}
-                imageAltText={repo.name}
-              />
-              <Headline
-                elementClassName={"proj-card-name"}
-                text={repo.name.replace("project", "").replace(/-/g, " ")}
-              />
-              <Text
-                elementClassName={"proj-card-description"}
-                text={repo.description}
-              />
-            </div>
-            <div className="tags-row">
-              {repo.topics.map((topic) => (
-                <Tag elementClassName={"proj-tags"} key={topic} tag={topic} />
+          <div className="card-wrapper" key={repo.id}>
+            {/* <div className="proj-info-row"> */}
+            <Image
+              section={"image-project"}
+              link={repoImage?.imageUrl}
+              imageAltText={repo.name}
+            />
+            <Headline
+              elementClassName={"proj-card-name"}
+              text={repo.name.replace("project", "").replace(/-/g, " ")}
+            />
+            <Text
+              elementClassName={"proj-card-description"}
+              text={repo.description}
+            />
+            {/* </div> */}
+            <div className="proj-tags-row">
+              {repo.topics.map((topic, index) => (
+                <Tag elementClassName={"proj-tags"} key={index} tag={toUppercaseTags(topic)} />
               ))}
             </div>
 
             <div className="proj-button-row">
               <Button
+                webUrl={repo.html_url}
                 section={"button-project"}
+                linkName={"link-project"}
                 iconUrl={"/Icons/globe.svg"}
                 iconAlt={"globe"}
                 text={"Live demo"}
               />
               <Button
+                webUrl={repo.homepage}
                 section={"button-project"}
+                linkName={"link-project"}
                 iconUrl={"/Icons/github.svg"}
                 iconAlt={"octocat"}
                 text={"View code"}
