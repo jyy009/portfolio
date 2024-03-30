@@ -30,7 +30,7 @@ export const Projects = () => {
   }, []);
 
   return (
-    <div className="project-container">
+    <div className="feature-project-container">
       <Title 
       text={"Featured Projects"}
       elementClassName={"featured-project-title"}

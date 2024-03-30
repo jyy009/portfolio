@@ -25,25 +25,28 @@ export const ProjectsCard = ({ repositories }) => {
 
         return (
           <div className="project-card-wrapper" key={repo.id}>
-            <Image
-              section={"image-project"}
-              link={repoImage?.imageUrl}
-              imageAltText={repo.name}
-            />
-            <Headline
-              elementClassName={"proj-card-name"}
-              text={repo.name.replace("project", "").replace(/-/g, " ")}
-            />
-            <Text
-              elementClassName={"proj-card-description"}
-              text={repo.description}
-            />
-            <div className="tags-container">
+            <div>
+              <Image
+                section={"image-project"}
+                link={repoImage?.imageUrl}
+                imageAltText={repo.name}
+              />
+              <Headline
+                elementClassName={"proj-card-name"}
+                text={repo.name.replace("project", "").replace(/-/g, " ")}
+              />
+              <Text
+                elementClassName={"proj-card-description"}
+                text={repo.description}
+              />
+            </div>
+            <div className="tags-row">
               {repo.topics.map((topic) => (
                 <Tag elementClassName={"proj-tags"} key={topic} tag={topic} />
               ))}
             </div>
-            <div className="proj-button-wrapper">
+
+            <div className="proj-button-row">
               <Button
                 section={"button-project"}
                 iconUrl={"/Icons/globe.svg"}

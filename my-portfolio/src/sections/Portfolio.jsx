@@ -3,7 +3,7 @@ import { Tech } from "./Tech";
 import { Projects } from "./Projects/Projects";
 import { Skills } from "./Skills/Skills";
 import { Contact } from "./Contact";
-import "../App.css"
+import "./Portfolio.css"
 
 export const Portfolio = () => {
   return (
