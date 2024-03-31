@@ -12,21 +12,21 @@ export const Profile = () => {
         imgAltText={"headshot"}
       />
       <div>
-      <Text elementClassName={"my-name"} text={"Hi, I'm Ji Yoo "} />
-      <Headline elementClassName={"my-job"} text={"Frontend Developer"} />
+        <Text elementClassName={"my-name"} text={"Hi, I'm Ji Yoo "} />
+        <Headline elementClassName={"my-job"} text={"Frontend Developer"} />
       </div>
       <Text
         elementClassName={"about-me"}
         text={
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "As a developer, I bring along my background in project management and client relations to strive to become a well-rounded developer with valuable skills to complement my coding and problem solving abilities."
         }
       />
       <div className="arrow-container">
-      <Image 
-        section={"arrow-img"}
-        link={"/Icons/Arrow.svg"}
-        imgAltText={"downwards arrow"}
-      />
+        <Image
+          section={"arrow-img"}
+          link={"/Icons/Arrow.svg"}
+          imgAltText={"downwards arrow"}
+        />
       </div>
     </div>
   );

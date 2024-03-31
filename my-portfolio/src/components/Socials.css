@@ -1,0 +1,20 @@
+@media (min-width: 745px) and (max-width: 1280px) {
+  .social-link > img {
+    width: 42px;
+    height: 42px;
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1512px) {
+  .social-link > img {
+    width: 52px;
+    height: 52px;
+  }
+}
+
+@media (min-width: 1513px) {
+  .social-link > img {
+    width: 62px;
+    height: 62px;
+  }
+}

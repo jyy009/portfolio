@@ -3,8 +3,8 @@ import { Tech } from "./Tech";
 import { Projects } from "./Projects/Projects";
 import { Skills } from "./Skills/Skills";
 import { Contact } from "./Contact";
-import { Ticker } from "./Ticker"
-import "./Portfolio.css"
+import { Ticker } from "./Ticker";
+import "./Portfolio.css";
 
 export const Portfolio = () => {
   return (

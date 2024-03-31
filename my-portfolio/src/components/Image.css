@@ -25,11 +25,19 @@
   .image-project {
     width: 200px;
     height: 280px;
-
   }
 }
 
 @media (min-width: 1281px) and (max-width: 1512px) {
+  .image-project {
+    height: 280px;
+    width: 408px;
+    border-bottom: 20px solid var(--green);
+    border-left: 20px solid var(--green);
+  }
+}
+
+@media (min-width: 1513px) {
   .image-project {
     height: 280px;
     width: 408px;

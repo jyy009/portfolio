@@ -46,13 +46,29 @@
 
 @media (min-width: 1281px) and (max-width: 1512px) {
   .skills-container {
-    padding: 128px 11px;
+    padding: 128px 161px;
     row-gap: 128px;
   }
 
   .skills-details {
     flex-direction: row;
     column-gap: 50px;
+  }
+
+  .skills-wrapper {
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 1513px) {
+  .skills-container {
+    padding: 128px 234px;
+    row-gap: 128px;
+  }
+
+  .skills-details {
+    flex-direction: row;
+    column-gap: 80px;
   }
 
   .skills-wrapper {

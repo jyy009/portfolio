@@ -20,7 +20,6 @@
   .tech-container {
     padding: 200px 32px;
   }
-
 }
 
 @media (min-width: 1281px) and (max-width: 1512px) {
@@ -30,6 +29,29 @@
     padding: 300px 161px;
     align-items: center;
   }
+
+  .tech-title {
+    padding-bottom: 0;
+  }
+
+  .tech-info {
+    font-size: 32px;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 1513px) {
+  .tech-container {
+    flex-direction: row;
+    column-gap: 124px;
+    padding: 300px 234px;
+    align-items: center;
+  }
+
+  .tech-title {
+    padding-bottom: 0;
+  }
+
   .tech-info {
     font-size: 32px;
     font-weight: 600;
