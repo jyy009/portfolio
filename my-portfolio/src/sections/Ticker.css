@@ -14,7 +14,7 @@
 
 .ticker {
   gap: 1rem;
-  animation: marquee 60s linear infinite;
+  animation: marquee 70s linear infinite;
   white-space: nowrap;
 }
 

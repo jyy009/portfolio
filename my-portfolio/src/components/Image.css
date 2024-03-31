@@ -8,7 +8,8 @@
 .image-project {
   height: 200px;
   object-fit: cover;
-  border: solid rgb(239, 108, 130);
+  border-bottom: 10px solid var(--green);
+  border-left: 10px solid var(--green);
 }
 
 .contact-img {

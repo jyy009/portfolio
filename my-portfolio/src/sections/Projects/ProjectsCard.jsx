@@ -39,6 +39,7 @@ export const ProjectsCard = ({ repositories }) => {
               link={repoImage?.imageUrl}
               imageAltText={repo.name}
             />
+            <div className="proj-content-container">
             <Headline
               elementClassName={"proj-card-name"}
               text={repo.name.replace("project", "").replace(/-/g, " ")}
@@ -71,6 +72,7 @@ export const ProjectsCard = ({ repositories }) => {
                 iconAlt={"octocat"}
                 text={"View code"}
               />
+              </div>
             </div>
           </div>
         );
