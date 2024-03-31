@@ -32,12 +32,6 @@ export const Contact = () => {
           imgAltText={"linkedin logo"}
         />
       </div>
-      {/* <div className="ticker-container">
-        <Text 
-        text={"Ji Yoo · Frontend Developer"} 
-        elementClassName={"ticker"}
-        />
-      </div> */}
     </div>
   );
 };

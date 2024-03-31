@@ -22,3 +22,22 @@
   font-weight: 600;
 }
 
+@media (min-width: 745px) and (max-width: 1280px) {
+  .contact-container {
+    padding: 128px 32px;
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1512px) {
+  .contact-container {
+    padding: 128px 162px;
+  }
+
+  .contact-title {
+    margin-bottom: 64px;
+  }
+
+  .contact-details > p {
+    font-size: 32px;
+  }
+}
