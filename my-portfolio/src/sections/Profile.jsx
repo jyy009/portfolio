@@ -18,7 +18,7 @@ export const Profile = () => {
       <Text
         elementClassName={"about-me"}
         text={
-          "As a developer, I bring along my background in project management and client relations to strive to become a well-rounded developer with valuable skills to complement my coding and problem solving abilities."
+          "I am passionate about evolving into a versatile developer by drawing from my extensive experience in project management and client relations. My goal is to enhance my coding and problem-solving knowledge with a unique blend of skills that not only address technical challenges but also foster effective communication and collaboration."
         }
       />
       <div className="arrow-container">
