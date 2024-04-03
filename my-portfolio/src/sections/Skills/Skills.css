@@ -27,6 +27,9 @@
   padding: 5px;
 }
 
+.skills-list {
+  line-height: 2;
+}
 @media (min-width: 745px) and (max-width: 1280px) {
   .skills-container {
     padding: 128px 32px 148px 32px;

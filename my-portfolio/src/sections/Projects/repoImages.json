@@ -34,5 +34,9 @@
   {
     "repoName": "project-pizza",
     "imageUrl": "/Icons/projectpizza.jpg"
+  },
+  {
+    "repoName": "project-news-site",
+    "imageUrl": "/Icons/newssite.jpg"
   }
 ]
