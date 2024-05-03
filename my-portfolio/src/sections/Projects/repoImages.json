@@ -38,5 +38,17 @@
   {
     "repoName": "project-news-site",
     "imageUrl": "/Icons/newssite.jpg"
+  },
+  {
+    "repoName": "project-movies-vite",
+    "imageUrl": "/Icons/movies.jpg"
+  },
+  {
+    "repoName": "project-todos-context-vite",
+    "imageUrl": "/Icons/todotracker.jpg"
+  },
+  {
+    "repoName": "project-design-handoff-vite",
+    "imageUrl": "/Icons/hiitdesign.jpg"
   }
 ]
