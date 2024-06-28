@@ -6,9 +6,14 @@ import { Headline } from "../../components/Headline";
 import { Text } from "../../components/Text";
 
 export const ProjectsCard = ({ repositories }) => {
+
+  const excludeWords = ["portfolio", "mongo-api-frontend"]
+  const excludeRegex = new RegExp(excludeWords.join("|"), "i");
+
   const filteredRepo = repositories
     .filter((repos) => repos.name.includes("project"))
 
+    .filter(repo =>!excludeRegex.test(repo.name))
     .sort((a, b) => {
       const repoA = new Date(a.created_at);
       const repoB = new Date(b.created_at);

@@ -50,5 +50,29 @@
   {
     "repoName": "project-design-handoff-vite",
     "imageUrl": "/Icons/hiitdesign.jpg"
+  },
+  {
+    "repoName": "project-bookclub",
+    "imageUrl": "/Icons/bookclub.jpg"
+  },
+  {
+    "repoName": "project-auth",
+    "imageUrl": "/Icons/auth.jpg"
+  },
+  {
+    "repoName": "project-happy-thoughts-api",
+    "imageUrl": "/Icons/happy-api.jpg"
+  },
+  {
+    "repoName": "project-mongo-api",
+    "imageUrl": "/Icons/netflix.jpg"
+  },
+  {
+    "repoName": "project-labyrinth-zustand-vite",
+    "imageUrl": "/Icons/labyrinth.jpg"
+  },
+  {
+    "repoName": "project-express-api",
+    "imageUrl": "/Icons/express.jpg"
   }
 ]
