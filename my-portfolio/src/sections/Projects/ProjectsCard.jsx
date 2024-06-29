@@ -6,14 +6,13 @@ import { Headline } from "../../components/Headline";
 import { Text } from "../../components/Text";
 
 export const ProjectsCard = ({ repositories }) => {
-
-  const excludeWords = ["portfolio", "mongo-api-frontend"]
+  const excludeWords = ["portfolio", "mongo-api-frontend"];
   const excludeRegex = new RegExp(excludeWords.join("|"), "i");
 
   const filteredRepo = repositories
     .filter((repos) => repos.name.includes("project"))
 
-    .filter(repo =>!excludeRegex.test(repo.name))
+    .filter((repo) => !excludeRegex.test(repo.name))
     .sort((a, b) => {
       const repoA = new Date(a.created_at);
       const repoB = new Date(b.created_at);
@@ -64,7 +63,7 @@ export const ProjectsCard = ({ repositories }) => {
 
               <div className="proj-button-row">
                 <Button
-                  webUrl={repo.html_url}
+                  webUrl={repo.homepage}
                   section={"button-project"}
                   linkName={"link-project"}
                   iconUrl={"/Icons/globe.svg"}
@@ -72,7 +71,7 @@ export const ProjectsCard = ({ repositories }) => {
                   text={"Live demo"}
                 />
                 <Button
-                  webUrl={repo.homepage}
+                  webUrl={repo.html_url}
                   section={"button-project"}
                   linkName={"link-project"}
                   iconUrl={"/Icons/github.svg"}
