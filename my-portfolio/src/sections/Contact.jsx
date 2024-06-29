@@ -15,7 +15,7 @@ export const Contact = () => {
       />
       <div className="contact-details">
         <Text text={"Ji Yoo"} elementClassName={"name"} />
-        <Text text={"+46 73 655 7156"} elementClassName={"phonenumber"} />
+        <Text text={"+46 (0)73 655 7156"} elementClassName={"phonenumber"} />
         <Text text={"yoo.ji.yg@gmail.com"} elementClassName={"email"} />
       </div>
       <div className="socials-wrapper">

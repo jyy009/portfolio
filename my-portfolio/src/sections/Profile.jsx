@@ -12,14 +12,13 @@ export const Profile = () => {
         imgAltText={"headshot"}
       />
       <div>
-        <Text elementClassName={"my-name"} text={"Hi, I'm Ji Yoo "} />
+        <Text elementClassName={"my-name"} text={"Hi, I'm Ji Yoo"} />
         <Headline elementClassName={"my-job"} text={"Frontend Developer"} />
       </div>
       <Text
         elementClassName={"about-me"}
         text={
-          "I am passionate about evolving into a versatile developer by drawing from my extensive experience in project management and client relations. My goal is to enhance my coding and problem-solving knowledge with a unique blend of skills that not only address technical challenges but also foster effective communication and collaboration."
-        }
+          "I'm originally from the U.S. and I've embarked on a fascinating journey spanning 10 years in project management roles to now a Frontend Developer. I enjoy being a developer because it is never static. As a self-motivated person with a strong mind-set, I thrive on the challenges of problem solving and the continuous learning that comes with it. In a short amount of time, I've built applications such as a live weather app and a Twitter inspired app using a custom API."}
       />
       <div className="arrow-container">
         <Image

@@ -9,7 +9,7 @@ export const Tech = () => {
       <Text
         elementClassName={"tech-info"}
         text={
-          "HTML, CSS, Javascript ES6, JSX, React, React Hooks, Node.js, Mongo DB, Web Accessibility, APIs, mob/pair programming, GitHub"
+          "HTML, CSS, Javascript ES6, JSX, React, React Hooks, Node.js, Mongo DB, Express.js Web Accessibility, APIs, mob/pair programming, GitHub"
         }
       />
     </div>

@@ -7,19 +7,21 @@
       "Javascript ES6",
       "React",
       "Styled Components",
-      "Github"
+      "Tailwind",
+      "Zustand",
+      "MongoDB"
     ]
   },
   {
     "skillName": "Toolbox",
-    "skillSet": ["Postman", "Figma", "Adobe Premiere Pro"]
+    "skillSet": ["Postman", "Figma", "Adobe Premiere Pro", "Mongo Atlas"]
   },
   {
     "skillName": "Upcoming",
-    "skillSet": ["Node.js"]
+    "skillSet": ["Typescript"]
   },
   {
     "skillName": "More",
-    "skillSet": ["Project management", "Client communication", "Fluent Korean"]
+    "skillSet": ["Project Management", "B.A. in Communication"]
   }
 ]
