@@ -74,5 +74,9 @@
   {
     "repoName": "project-express-api",
     "imageUrl": "/Icons/express.jpg"
+  },
+  {
+    "repoName": "project-tic-tac-toe",
+    "imageUrl": "/Icons/tictactoe.jpg"
   }
 ]
