@@ -18,7 +18,7 @@ export const Profile = () => {
       <Text
         elementClassName={"about-me"}
         text={
-          "I'm originally from the U.S. and I've embarked on a fascinating journey spanning 10 years in project management roles to now a Frontend Developer. I enjoy being a developer because it is never static. As a self-motivated person with a strong mind-set, I thrive on the challenges of problem solving and the continuous learning that comes with it. In a short amount of time, I've built applications such as a live weather app and a Twitter inspired app using a custom API."}
+          "I'm a Frontend Developer with a positive mindset, solid communication skills, and the ability to collaborate with anyone I get the chance to work with. I transitioned into frontend because I enjoy the adaptability that comes with the process of building a product and collaborating with others to achieve set goals. I thrive in environments where I can be a pivotal part of a team and continue to learn along the way."}
       />
       <div className="arrow-container">
         <Image
